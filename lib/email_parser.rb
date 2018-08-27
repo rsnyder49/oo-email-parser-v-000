@@ -9,6 +9,12 @@ class EmailParser
   def self.new 
     @@emails << self 
   end 
+  
+  def parse 
+    parsed_emails = []
+    
+    @@emails.
+  end 
     
   
 end 
