@@ -4,5 +4,11 @@
 # or whitespace (' ').
 
 class EmailParser 
+  @@emails = []
+  
+  def self.new 
+    @@emails << self 
+  end 
+    
   
 end 
