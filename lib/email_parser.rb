@@ -14,6 +14,10 @@ class EmailParser
     parsed_emails = []
     
     email_array = @@emails.split(/[,\s]/)
+    email_array.each do |email|
+      parsed_emails << email unless parsed_emails.include?(email)
+    end 
+    parsed_emails
   end 
     
   
