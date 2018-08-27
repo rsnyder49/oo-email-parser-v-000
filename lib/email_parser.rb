@@ -13,7 +13,7 @@ class EmailParser
   def parse 
     parsed_emails = []
     
-    email_array = @@emails.split(/[,]/)
+    email_array = @@emails.split(/[,\s]/)
   end 
     
   
